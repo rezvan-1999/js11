@@ -12,8 +12,21 @@ const person2 = {
 
 // ! Answer
 
+const displayName = ({ first, last }) => {
+  return `${first} ${last}`;
+};
+
+const theRich = displayName(person2);
+console.log(theRich);
 
 
+// another way
+/*  
+function displayName({first, last}){
+return `${first} ${last}`;};
 
 
+const theRich = displayName(person2);
+console.log(theRich);
+*/
 
